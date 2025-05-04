@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 200px;
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      background-color: #ffffff;
+      color: #000000;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0;
+      background-color: #000000;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #333333;
+    }
+    h3 {
+      margin-top: 0;
+      text-align: center;
+      color: #000000;
+    }
+    .about-link {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 12px;
+    }
+    .about-link a {
+      color: #000000;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h3>Chinese Text Converter</h3>
+  <button id="convertToTraditional">Convert All to Traditional</button>
+  <button id="convertToSimplified">Convert All to Simplified</button>
+  <div class="about-link">
+    <a href="#" id="aboutLink">About</a>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
