@@ -11,7 +11,3 @@ This extension is licensed under the MIT License - see the LICENSE.md file for d
 ### Attribution
 
 - [OpenCC](https://github.com/BYVoid/OpenCC) - Licensed under Apache 2.0
-
-## Privacy
-
-This extension does not collect any user data. It processes all text locally within the browser and does not transmit any information to external servers.
